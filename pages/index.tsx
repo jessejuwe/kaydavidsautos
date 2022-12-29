@@ -16,7 +16,7 @@ export default function Home() {
           content="Providing luxury cars at an affordable price"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/icon1.ico" />
+        <link rel="icon" href="/logo2.ico" />
       </Head>
 
       <main className="">
