@@ -24,8 +24,12 @@ const Footer: React.FC = () => {
       </ul>
 
       <div className="footer__base">
+        <div className="full-logo app__flex">
+          <Image src={images.icon2} alt="Logo" className="footer__logo" />
+          <h1>KDA</h1>
+        </div>
         <p className="footer__copyright">
-          Copyright &copy; 2023 KayDavidsAutos. All rights reserved.
+          Copyright &copy; 2023 KayDavidsAuto. All rights reserved.
         </p>
         <div className="footer__socials">
           <div>
