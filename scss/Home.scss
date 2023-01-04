@@ -52,7 +52,7 @@
   }
 
   .app__container {
-    @apply w-[full] min-h-screen flex flex-row;
+    @apply w-full min-h-screen flex flex-row;
   }
 
   .app__wrapper {
@@ -63,16 +63,16 @@
     @apply app__flex flex-col p-4;
 
     div {
-      @apply p-2 w-5 h-5 rounded-full bg-white my-1 mx-auto border border-solid border-primary-darkMode ease-in-out large:w-8 large:h-8 large:my-2 large:mx-0 flex items-center justify-center;
+      @apply w-8 h-8 rounded-full bg-white my-1 mx-auto border border-solid border-primary-darkMode ease-in-out large:w-8 large:h-8 large:my-2 large:mx-0 app__flex;
 
       svg {
-        @apply w-5 h-5 text-primary-darkMode hover:text-primary large:w-6 large:h-6 transition;
+        @apply w-4 h-4 text-primary-darkMode hover:text-primary large:w-6 large:h-6 transition app__flex;
       }
     }
   }
 
   .app__navigation {
-    @apply flex justify-center items-center flex-col p-4;
+    @apply app__flex flex-col p-4;
 
     .app__navigation-dot {
       @apply w-[10px] h-[10px] rounded-[50%] bg-gray-400 m-2 transition-colors duration-200 ease-in-out hover:bg-primary-darkMode large:w-5 large:h-5;

@@ -1,9 +1,69 @@
 import React from 'react';
+import Image from 'next/image';
+import {
+  InstagramFilled,
+  TwitterCircleFilled,
+  GithubFilled,
+  LinkedinFilled,
+} from '@ant-design/icons';
 
-type Props = {};
+import { FOOTERS } from '../../helpers/helpers';
+import { images } from '../../constants';
 
-const Footer = (props: Props) => {
-  return <div>Footer</div>;
+const Footer: React.FC = () => {
+  return (
+    <footer className="footer">
+      <ul className="footer__nav">
+        {FOOTERS.map((item, index) => (
+          <li key={`${item.title}-${index}`} className="footer__item">
+            <a className="footer__link" href={item.link}>
+              {item.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <div className="footer__base">
+        <p className="footer__copyright">
+          Copyright &copy; 2023 KayDavidsAutos. All rights reserved.
+        </p>
+        <div className="footer__socials">
+          <div>
+            <a
+              href="//twitter.com/iktheenigma"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <TwitterCircleFilled />
+            </a>
+          </div>
+          <div>
+            <a
+              href="//instagram.com/iktheenigma"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InstagramFilled />
+            </a>
+          </div>
+          <div>
+            <a href="//github.com/jessejuwe" target="_blank" rel="noreferrer">
+              <GithubFilled />
+            </a>
+          </div>
+          <div>
+            <a
+              href="//linkedin.com/in/juwejesse"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedinFilled />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;

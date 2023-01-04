@@ -38,7 +38,7 @@ const Wrapper: React.FC<Wrapper> = props => {
   return (
     <div>
       <Navbar />
-      <main className="app">{props.children}</main>
+      <main className="">{props.children}</main>
       <Footer />
     </div>
   );

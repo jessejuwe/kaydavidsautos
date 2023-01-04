@@ -35,20 +35,20 @@
     --swiper-pagination-color: #b1dab2;
   }
 
-  html,
-  body {
-    @apply max-w-[100vw] overflow-x-hidden font-inter;
+  html {
+    @apply box-border overflow-x-hidden;
   }
 
   body {
+    @apply min-h-screen font-inter;
   }
 
   a {
-    @apply no-underline text-inherit;
+    @apply no-underline;
   }
 
   * {
-    @apply box-border p-0 m-0 scroll-smooth;
+    @apply p-0 m-0 scroll-smooth;
   }
 
   *,
@@ -56,14 +56,4 @@
   *::after {
     box-sizing: inherit;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }

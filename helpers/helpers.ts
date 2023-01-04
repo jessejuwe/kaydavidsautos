@@ -5,12 +5,12 @@ export const NAV_DOTS = [
 ];
 
 export const FOOTERS = [
-  { title: 'About' },
-  { title: 'Pricing' },
-  { title: 'Terms of Use' },
-  { title: 'Privacy Policy' },
-  { title: 'Careers' },
-  { title: 'Blog' },
-  { title: 'Contact Us' },
-  { title: 'Testimonials' },
+  { title: 'About', link: '#about' },
+  { title: 'Services', link: '#services' },
+  { title: 'Contact Us', link: '#' },
+  { title: 'Testimonials', link: '#testimonials' },
+  // { title: 'Terms of Use' },
+  // { title: 'Privacy Policy' },
+  // { title: 'Careers' },
+  // { title: 'Blog' },
 ];

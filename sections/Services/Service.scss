@@ -3,12 +3,24 @@
 @tailwind utilities;
 
 @layer components {
+  #services {
+    @apply w-full;
+
+    .app__wrapper {
+      @apply justify-start lg:justify-center;
+
+      .copyright {
+        @apply hidden;
+      }
+    }
+  }
+
   .home__section {
     @apply text-white py-10 px-0 w-full mb-8;
 
     .containers {
       .row {
-        @apply flex flex-col-reverse lg:flex-row -mx-4 -mb-4;
+        @apply flex flex-col lg:flex-row -mx-4 -mb-4;
       }
 
       .home__section-row {
@@ -34,6 +46,10 @@
 
             .subtitle {
               @apply mb-2 lg:mb-4 text-sm lg:text-base m-auto lg:m-[initial];
+
+              span {
+                @apply text-xs;
+              }
             }
 
             .dark {

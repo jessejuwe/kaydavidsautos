@@ -3,4 +3,48 @@
 @tailwind utilities;
 
 @layer components {
+  .footer {
+    @apply py-4 px-6 lg:px-12 bg-[#000103] flex flex-col-reverse lg:flex-col justify-start items-center;
+
+    &__nav {
+      @apply grid grid-cols-2 my-10 mx-0 gap-y-6 gap-x-28;
+    }
+
+    &__item {
+      @apply font-semibold text-center;
+    }
+
+    &__link {
+      @apply text-base text-gray-600;
+    }
+
+    &__link:link,
+    &__link:visited {
+      @apply font-semibold transition hover:scale-105 hover:text-primary;
+    }
+
+    &__logo {
+      @apply h-8 w-8 lg:h-10 lg:w-10 transition-all duration-300;
+    }
+
+    &__copyright {
+      @apply text-base text-gray-600 text-center font-semibold mb-10 lg:mb-0;
+    }
+
+    .footer__base {
+      @apply flex items-center justify-between gap-16;
+
+      .footer__socials {
+        @apply flex items-center justify-between gap-4;
+
+        div {
+          @apply w-12 h-12 rounded-full bg-transparent my-1 mx-auto ease-in-out large:w-8 large:h-8 large:my-2 large:mx-0 app__flex;
+
+          svg {
+            @apply w-6 h-6 text-gray-600 hover:text-primary large:w-6 large:h-6 transition app__flex;
+          }
+        }
+      }
+    }
+  }
 }

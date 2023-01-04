@@ -60,17 +60,6 @@ const Service: React.FC<Props> = props => {
           }`}
         >
           <div className="col">
-            <div className="img-wrapper">
-              <Image
-                src={props.img}
-                data-src={props.imgSrc}
-                alt={props.alt}
-                className="img lazy-img"
-              />
-            </div>
-          </div>
-
-          <div className="col">
             <div className="text-wrapper">
               <h3 className={props.lightText ? 'heading' : 'heading dark'}>
                 {props.headline}
@@ -81,10 +70,21 @@ const Service: React.FC<Props> = props => {
                     key={index}
                     className={props.lightText ? 'subtitle' : 'subtitle dark'}
                   >
-                    ✔ {item}
+                    <span>✔</span> {item}
                   </p>
                 ))}
               </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="img-wrapper">
+              <Image
+                src={props.img}
+                data-src={props.imgSrc}
+                alt={props.alt}
+                className="img lazy-img"
+              />
             </div>
           </div>
         </div>

@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
                   <CloseCircleOutlined onClick={toggleHandler} />
                   <ul className="nav__links" onClick={closeHandler}>
                     <li className="nav__item">
-                      <a className="nav__link" href="#home">
+                      <a className="nav__link" href="#">
                         Home
                       </a>
                     </li>
@@ -129,7 +129,7 @@ const Navbar: React.FC = () => {
 
           <ul className="nav__links">
             <li className="nav__item">
-              <a className="nav__link" href="#home">
+              <a className="nav__link" href="#">
                 Home
               </a>
             </li>

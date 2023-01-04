@@ -3,8 +3,20 @@
 @tailwind utilities;
 
 @layer components {
+  #about {
+    @apply w-full;
+
+    .app__wrapper {
+      @apply justify-start lg:justify-center;
+
+      .copyright {
+        @apply hidden;
+      }
+    }
+  }
+
   .section {
-    @apply py-20 px-4 lg:px-32 transition;
+    @apply py-20 px-4 lg:px-16 transition w-full mx-auto;
 
     .section__title {
       @apply mt-10 mx-auto mb-4 text-start;
@@ -39,7 +51,7 @@
     }
 
     .section__values {
-      @apply flex flex-col lg:grid lg:grid-cols-2 mb-10 pb-12 border-b border-gray-300;
+      @apply flex flex-col lg:grid lg:grid-cols-2 pb-12 border-b border-gray-300;
 
       .values {
         @apply lg:p-6 flex flex-col items-start justify-start;
