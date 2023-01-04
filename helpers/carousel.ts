@@ -1,15 +1,15 @@
-// import { images } from '../constants';
+import { images } from '../constants';
 
-// interface Carousel {
-//   style: string;
-//   title: string;
-//   testimonial: string;
-//   image: any;
-//   alt: string;
-//   name: string;
-//   location: string;
-//   active: boolean;
-// }
+interface Carousel {
+  style: string;
+  title: string;
+  testimonial: string;
+  image: any;
+  alt: string;
+  name: string;
+  location: string;
+  active: boolean;
+}
 
 // export const SLIDES: Carousel[] = [
 //   {
