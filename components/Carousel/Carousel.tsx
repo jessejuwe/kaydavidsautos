@@ -11,7 +11,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { SLIDES } from '../../helpers/carousel';
+// import { SLIDES } from '../../helpers/carousel';
 
 const Carousel: React.FC = () => {
   return (
@@ -28,7 +28,7 @@ const Carousel: React.FC = () => {
       onSwiper={swiper => console.log(swiper)}
       onSlideChange={() => {}}
     >
-      {SLIDES.map((item, index) => (
+      {/* {SLIDES.map((item, index) => (
         <SwiperSlide key={`item--${index}`} zoom>
           <div className={`slide ${item.style}`}>
             <div className="testimonial">
@@ -50,7 +50,7 @@ const Carousel: React.FC = () => {
             </div>
           </div>
         </SwiperSlide>
-      ))}
+      ))} */}
     </Swiper>
   );
 };
