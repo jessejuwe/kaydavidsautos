@@ -3,9 +3,18 @@
 
 @import '../scss/Home.scss';
 
+@import '../components/Button/Button.scss';
+@import '../components/Carousel/Carousel.scss';
+@import '../components/Card/Card.scss';
+@import '../components/Modal/Modal.scss';
+@import '../components/Form/Form.scss';
+
 @import '../containers/ErrorPage/ErrorPage.scss';
-@import '../containers/LandingPage/LandingPage.scss';
+@import '../containers/Header/Header.scss';
 @import '../containers/MainPage/MainPage.scss';
+
+@import '../sections/About/About.scss';
+@import '../sections/Services/Service.scss';
 
 @import '../layouts/Footer/Footer.scss';
 @import '../layouts/Navbar/Navbar.scss';
@@ -22,17 +31,13 @@
     --secondary: 177 209 219;
     --secondary-darkMode: 108 128 134;
 
-    --swiper-navigation-color: #4bbb7d;
-    --swiper-pagination-color: #4bbb7d;
-  }
-
-  html {
-    @apply text-[100%];
+    --swiper-navigation-color: #b1dab2;
+    --swiper-pagination-color: #b1dab2;
   }
 
   html,
   body {
-    @apply max-w-[100vw] overflow-x-hidden;
+    @apply max-w-[100vw] overflow-x-hidden font-inter;
   }
 
   body {
