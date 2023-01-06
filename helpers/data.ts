@@ -44,7 +44,7 @@ export const Values: Values[] = [
   },
   {
     value: 'Committed Team',
-    info: 'Our Staff are at the heart of all that we do. A team of highly motivated, driven, cultured & energetic people who work tirelessly in delivering at high quality value at work everyday to our esteemed clients. We invest a lot in our people.',
+    info: 'Our Staff are at the heart of all that we do. A team of highly motivated, driven, cultured & energetic people who work tirelessly in delivering high quality value at work everyday to our esteemed clients. We invest a lot in our people.',
   },
   {
     value: 'Innovation',
