@@ -3,7 +3,7 @@ import Image from 'next/image';
 import {
   InstagramFilled,
   TwitterCircleFilled,
-  GithubFilled,
+  FacebookFilled,
   LinkedinFilled,
 } from '@ant-design/icons';
 
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
         <div className="footer__socials">
           <div>
             <a
-              href="//twitter.com/iktheenigma"
+              href="//twitter.com/kaydavidsautos"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           </div>
           <div>
             <a
-              href="//instagram.com/iktheenigma"
+              href="//instagram.com/kaydavidsautos"
               target="_blank"
               rel="noreferrer"
             >
@@ -51,13 +51,17 @@ const Footer: React.FC = () => {
             </a>
           </div>
           <div>
-            <a href="//github.com/jessejuwe" target="_blank" rel="noreferrer">
-              <GithubFilled />
+            <a
+              href="//facebook.com/kaydavidsautos"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FacebookFilled />
             </a>
           </div>
           <div>
             <a
-              href="//linkedin.com/in/juwejesse"
+              href="//linkedin.com/in/kaydavidsautos"
               target="_blank"
               rel="noreferrer"
             >
