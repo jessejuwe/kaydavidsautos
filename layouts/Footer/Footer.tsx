@@ -23,6 +23,12 @@ const Footer: React.FC = () => {
         ))}
       </ul>
 
+      <div className="footer__contact-us">
+        <p>You can reach us here</p>
+        <p>+234 802 797 8387 | info@kaydavidsautos.com</p>
+        <p></p>
+      </div>
+
       <div className="footer__base">
         <div className="full-logo app__flex">
           <Image src={images.icon2} alt="Logo" className="footer__logo" />

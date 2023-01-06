@@ -31,6 +31,14 @@
       @apply text-sm text-gray-600 text-center font-semibold;
     }
 
+    .footer__contact-us {
+      @apply flex flex-col items-center justify-between gap-4 mb-4;
+
+      p {
+        @apply text-sm text-gray-600 text-center font-semibold;
+      }
+    }
+
     .footer__base {
       @apply flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-16;
 
