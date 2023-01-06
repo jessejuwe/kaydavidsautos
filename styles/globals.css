@@ -15,6 +15,7 @@
 
 @import '../sections/About/About.scss';
 @import '../sections/Services/Service.scss';
+@import '../sections/ContactUS/ContactUS.scss';
 
 @import '../layouts/Footer/Footer.scss';
 @import '../layouts/Navbar/Navbar.scss';

@@ -23,6 +23,22 @@
     @apply w-full;
   }
 
+  .section {
+    @apply py-20 px-4 lg:px-16 transition w-full border-b border-gray-300;
+
+    .section__title {
+      @apply mt-10 mx-auto mb-4 text-start;
+    }
+
+    h2 {
+      @apply text-lg lg:text-xl font-extrabold uppercase text-primary-darkMode mb-4;
+    }
+
+    h3 {
+      @apply text-2xl lg:text-4xl leading-snug font-semibold text-[#000103] mb-4;
+    }
+  }
+
   .section--hidden {
     @apply opacity-0 translate-y-32;
   }

@@ -8,6 +8,8 @@ import importing from '../assets/import.png';
 import trade from '../assets/trade.png';
 import repair from '../assets/repair.png';
 import maintenance from '../assets/maintenance.png';
+import email from '../assets/email.png';
+import phone from '../assets/phone.png';
 
 interface Images {
   icon1: any;
@@ -18,6 +20,8 @@ interface Images {
   trade: any;
   repair: any;
   maintenance: any;
+  email: any;
+  phone: any;
 }
 
 export const Images: Images = {
@@ -29,4 +33,6 @@ export const Images: Images = {
   trade,
   repair,
   maintenance,
+  email,
+  phone,
 };

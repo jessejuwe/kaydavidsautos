@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import { Header, About, Services } from '../../exports/exports';
+import { Header, About, Services, ContactUS } from '../../exports/exports';
 
 type Props = {};
 
@@ -36,6 +36,7 @@ const MainPage = (props: Props) => {
       <Header />
       <About />
       <Services />
+      <ContactUS />
     </div>
   );
 };

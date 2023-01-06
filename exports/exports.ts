@@ -16,6 +16,7 @@ export { default as ErrorPage } from '../containers/ErrorPage/ErrorPage';
 // exporting from sections directory
 export { default as About } from '../sections/About/About';
 export { default as Services } from '../sections/Services/Services';
+export { default as ContactUS } from '../sections/ContactUS/ContactUS';
 
 // exporting from layouts directory
 export { default as Footer } from '../layouts/Footer/Footer';

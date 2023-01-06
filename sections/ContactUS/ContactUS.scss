@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #contact-us {
+    @apply w-full;
+
+    .app__wrapper {
+      @apply justify-start lg:justify-center;
+
+      .copyright {
+        @apply hidden;
+      }
+    }
+  }
+
+  .app__contact-cards {
+    @apply w-full flex justify-evenly items-center flex-wrap mt-16 mb-8;
+
+    .app__contact-card {
+      @apply w-full lg:w-4/5 min-w-[290px] flex flex-row justify-start items-center my-4 mx-0 p-4 rounded-lg cursor-pointer bg-[#fef4f5] transition-all duration-300 ease-in-out lg:hover:shadow-md lg:hover:shadow-white last:bg-[#fef7fb];
+
+      img {
+        @apply w-10 h-10;
+      }
+
+      a {
+        @apply mx-4 font-semibold text-primary-darkMode;
+      }
+    }
+  }
+}
