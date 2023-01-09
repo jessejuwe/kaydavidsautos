@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
     if (e.target.classList.contains('nav__link') && size) {
       const link = e.target;
       const siblings = link.closest('.nav').querySelectorAll('.nav__link');
-      const logo = link.closest('.nav').querySelector('.full-logo');
+      const logo = link.closest('.nav').querySelector('.nav__logo');
 
       siblings.forEach((el: any) => {
         if (el !== link) el.style.opacity = this;
@@ -64,15 +64,12 @@ const Navbar: React.FC = () => {
           onMouseOver={hoverHandler.bind(0.5)}
           onMouseOut={hoverHandler.bind(1)}
         >
-          <div className="full-logo app__flex">
-            <Image
-              src={images.icon2}
-              alt="KayDavidsAutos Logo"
-              className="nav__logo"
-              id="logo"
-            />
-            <h1>KDA</h1>
-          </div>
+          <Image
+            src={images.logo}
+            alt="KayDavidsAutos Logo"
+            className="nav__logo"
+            id="logo"
+          />
 
           <div className="nav__mobile">
             <MenuOutlined onClick={toggleHandler} />

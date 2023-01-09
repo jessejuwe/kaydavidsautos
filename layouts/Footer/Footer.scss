@@ -32,7 +32,7 @@
     }
 
     .footer__contact-us {
-      @apply flex flex-col items-center justify-between gap-4 mb-4;
+      @apply flex flex-col items-center justify-between gap-4;
 
       p {
         @apply text-sm text-gray-600 text-center font-semibold;
@@ -42,12 +42,8 @@
     .footer__base {
       @apply flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-16;
 
-      .full-logo {
-        @apply gap-2;
-
-        h1 {
-          @apply text-primary font-semibold;
-        }
+      img {
+        @apply h-20 w-16 lg:h-32 lg:w-24 transition-all duration-300;
       }
 
       .footer__socials {
@@ -57,7 +53,7 @@
           @apply w-12 h-12 rounded-full bg-transparent ease-in-out large:w-8 large:h-8 large:my-2 large:mx-0 app__flex;
 
           svg {
-            @apply w-5 h-5 text-gray-600 hover:text-primary large:w-6 large:h-6 transition app__flex;
+            @apply w-5 h-5 text-gray-600 hover:text-gray-200 large:w-6 large:h-6 transition app__flex;
           }
         }
       }

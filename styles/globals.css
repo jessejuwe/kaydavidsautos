@@ -26,10 +26,10 @@
 
 @layer base {
   :root {
-    --primary: 177 219 179;
-    --primary-darkMode: 108 134 110;
+    --primary: 121 166 120;
+    --primary-darkMode: 8 69 8;
 
-    --secondary: 177 209 219;
+    --secondary: 8 57 69;
     --secondary-darkMode: 108 128 134;
 
     --swiper-navigation-color: #b1dab2;

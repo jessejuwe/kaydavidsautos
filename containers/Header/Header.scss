@@ -11,7 +11,7 @@
     }
 
     &__info {
-      @apply lg:max-w-3xl text-gray-200 flex flex-col items-start justify-between gap-6;
+      @apply lg:max-w-3xl text-gray-300 flex flex-col items-start justify-between gap-6;
 
       h1 {
         @apply text-secondary text-4xl lg:text-5xl font-bold;
@@ -22,7 +22,7 @@
       }
 
       p {
-        @apply text-gray-200 text-base text-justify lg:max-w-lg;
+        @apply text-gray-300 text-base text-justify lg:max-w-lg;
       }
 
       .learn-more {

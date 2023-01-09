@@ -10,6 +10,7 @@ import repair from '../assets/repair.png';
 import maintenance from '../assets/maintenance.png';
 import email from '../assets/email.png';
 import phone from '../assets/phone.png';
+import logo from '../assets/logo.png';
 
 interface Images {
   icon1: any;
@@ -22,6 +23,7 @@ interface Images {
   maintenance: any;
   email: any;
   phone: any;
+  logo: any;
 }
 
 export const Images: Images = {
@@ -35,4 +37,5 @@ export const Images: Images = {
   maintenance,
   email,
   phone,
+  logo,
 };
