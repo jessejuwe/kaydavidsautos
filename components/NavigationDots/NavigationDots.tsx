@@ -12,7 +12,7 @@ const NavigationDots: React.FC<Props> = props => {
           key={`item-${index}`}
           className="app__navigation-dot"
           style={
-            props.active === item.title ? { backgroundColor: '#6c866e' } : {}
+            props.active === item.title ? { backgroundColor: '#084508' } : {}
           }
         />
       ))}
