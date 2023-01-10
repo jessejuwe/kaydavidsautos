@@ -24,7 +24,7 @@
   }
 
   .section {
-    @apply py-20 px-4 lg:px-16 transition w-full border-b border-gray-400;
+    @apply py-20 px-4 lg:px-16 transition w-full border-b border-gray-400 lg:overflow-x-auto overflow-x-hidden;
 
     .section__title {
       @apply mt-10 mx-auto mb-4 text-start;
