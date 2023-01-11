@@ -16,7 +16,7 @@
   }
 
   article {
-    @apply tracking-wider text-justify mb-10 text-gray-800 font-serif;
+    @apply tracking-wider text-justify mb-10 text-gray-800 font-openSans;
 
     span {
       @apply font-semibold;
@@ -30,7 +30,7 @@
       @apply flex flex-row items-start justify-start gap-4;
 
       p {
-        @apply tracking-wide text-ellipsis text-left lg:text-justify text-gray-200 font-serif;
+        @apply tracking-wide text-ellipsis text-left lg:text-justify text-gray-200 font-openSans;
       }
     }
   }
@@ -46,7 +46,7 @@
       }
 
       p {
-        @apply tracking-wide text-justify mb-4 lg:mb-0 text-gray-800 font-serif;
+        @apply tracking-wide text-justify mb-4 lg:mb-0 text-gray-800 font-openSans;
       }
     }
   }
