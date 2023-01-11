@@ -16,7 +16,7 @@
   }
 
   article {
-    @apply tracking-wider text-justify mb-10 text-gray-300;
+    @apply tracking-wider text-justify mb-10 text-gray-800;
 
     span {
       @apply font-semibold;
@@ -24,13 +24,13 @@
   }
 
   .section__missions {
-    @apply bg-[#000103] p-6 rounded-md flex flex-col items-center justify-start gap-6 mb-10;
+    @apply bg-secondary-darkMode p-6 rounded-md flex flex-col items-center justify-start gap-6 mb-10;
 
     .missions {
       @apply flex flex-row items-start justify-start gap-4;
 
       p {
-        @apply tracking-wide text-ellipsis text-left lg:text-justify text-gray-300;
+        @apply tracking-wide text-ellipsis text-left lg:text-justify text-gray-200;
       }
     }
   }
@@ -42,11 +42,11 @@
       @apply lg:p-6 flex flex-col items-start justify-start;
 
       h2 {
-        @apply text-lg font-extrabold uppercase text-secondary-darkMode mb-2;
+        @apply text-lg font-extrabold uppercase text-[#000103] mb-2;
       }
 
       p {
-        @apply tracking-wide text-justify mb-4 lg:mb-0 text-gray-300;
+        @apply tracking-wide text-justify mb-4 lg:mb-0 text-gray-800;
       }
     }
   }

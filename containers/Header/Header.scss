@@ -14,15 +14,15 @@
       @apply lg:max-w-3xl text-gray-300 flex flex-col items-start justify-between gap-6;
 
       h1 {
-        @apply text-secondary text-4xl lg:text-5xl font-bold;
+        @apply text-primary text-4xl lg:text-5xl font-bold;
       }
 
       h3 {
-        @apply text-primary text-xl lg:text-3xl font-semibold text-justify;
+        @apply text-secondary text-xl lg:text-3xl font-semibold text-justify;
       }
 
       p {
-        @apply text-gray-300 text-base text-justify lg:max-w-lg;
+        @apply text-gray-200 text-base text-justify lg:max-w-lg;
       }
 
       .learn-more {
