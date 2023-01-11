@@ -41,11 +41,11 @@
             @apply flex flex-col items-start justify-center pt-0 pb-8 m-auto lg:m-[initial] text-start;
 
             .heading {
-              @apply text-start text-xl lg:text-2xl mb-4 font-semibold uppercase;
+              @apply text-start text-xl lg:text-2xl mb-4 font-semibold uppercase text-black;
             }
 
             .subtitle {
-              @apply mb-2 lg:mb-4 text-sm lg:text-base m-auto lg:m-[initial];
+              @apply mb-2 lg:mb-4 text-sm lg:text-base m-auto lg:m-[initial] font-serif;
 
               span {
                 @apply text-xs;
@@ -62,7 +62,7 @@
   }
 
   .darkBg {
-    @apply bg-secondary-darkMode rounded-lg;
+    @apply bg-primary-darkMode rounded-lg;
   }
 
   .containers {

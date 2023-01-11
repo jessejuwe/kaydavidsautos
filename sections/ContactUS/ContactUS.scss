@@ -19,14 +19,14 @@
     @apply w-full flex justify-evenly items-center flex-wrap mt-16 mb-8;
 
     .app__contact-card {
-      @apply w-full lg:w-4/5 min-w-[290px] flex flex-row justify-start items-center my-4 mx-0 p-4 rounded-lg cursor-pointer bg-primary transition-all duration-300 ease-in-out lg:hover:shadow-md lg:hover:shadow-primary;
+      @apply w-full lg:w-4/5 min-w-[290px] flex flex-row justify-start items-center my-4 mx-0 p-4 rounded-lg cursor-pointer bg-primary-darkMode transition-all duration-300 ease-in-out lg:hover:shadow-md lg:hover:shadow-primary-darkMode;
 
       img {
         @apply w-10 h-10;
       }
 
       a {
-        @apply mx-4 font-semibold text-primary-darkMode;
+        @apply mx-4 font-semibold text-gray-300;
       }
     }
   }

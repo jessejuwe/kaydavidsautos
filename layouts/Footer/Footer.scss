@@ -40,7 +40,7 @@
     }
 
     .footer__base {
-      @apply flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-16;
+      @apply flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-36;
 
       img {
         @apply h-20 w-16 lg:h-32 lg:w-24 transition-all duration-300;

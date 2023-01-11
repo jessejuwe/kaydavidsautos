@@ -5,7 +5,6 @@ import icon2 from '../assets/icon2.png';
 import icon3 from '../assets/icon3.png';
 import background from '../assets/background.jpg';
 import importing from '../assets/import.png';
-import trade from '../assets/trade.png';
 import repair from '../assets/repair.png';
 import maintenance from '../assets/maintenance.png';
 import email from '../assets/email.png';
@@ -18,7 +17,6 @@ interface Images {
   icon3: any;
   background: any;
   importing: any;
-  trade: any;
   repair: any;
   maintenance: any;
   email: any;
@@ -32,7 +30,6 @@ export const Images: Images = {
   icon3,
   background,
   importing,
-  trade,
   repair,
   maintenance,
   email,
