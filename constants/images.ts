@@ -9,7 +9,7 @@ import repair from '../assets/repair.png';
 import maintenance from '../assets/maintenance.png';
 import email from '../assets/email.png';
 import phone from '../assets/phone.png';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.jpg';
 
 interface Images {
   icon1: any;
