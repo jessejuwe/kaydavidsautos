@@ -10,7 +10,7 @@ const About: React.FC = () => {
     <section className="section">
       <div className="section__title">
         <h2 className="section__description">About Us</h2>
-        <h3 className="section__header">Brief History of KayDavidsAutos</h3>
+        <h3 className="section__header">Brief History of KayDavids Autos</h3>
       </div>
 
       <motion.article>

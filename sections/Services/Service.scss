@@ -41,7 +41,7 @@
             @apply flex flex-col items-start justify-center pt-0 pb-8 m-auto lg:m-[initial] text-start;
 
             .heading {
-              @apply text-start text-xl lg:text-2xl mb-4 font-semibold uppercase text-black;
+              @apply text-start text-xl lg:text-2xl mb-4 font-semibold uppercase text-primary;
             }
 
             .subtitle {

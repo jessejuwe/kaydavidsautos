@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { Inter } from '@next/font/google';
 
 import { MainPage } from '../exports/exports';
@@ -10,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>KayDavidsAutos</title>
+        <title>KayDavids Autos</title>
         <meta
           name="description"
           content="Providing luxury cars at an affordable price"
