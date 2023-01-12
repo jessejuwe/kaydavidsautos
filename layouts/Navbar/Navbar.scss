@@ -4,28 +4,28 @@
 
 @layer components {
   .app__navbar {
-    @apply bg-[#000103] w-full;
+    @apply bg-white w-full;
   }
 
   .nav {
     @apply flex justify-between items-center w-full py-4 px-4 lg:px-8 z-50;
 
     &__logo {
-      @apply h-10 w-20 lg:h-[4.5rem] lg:w-40 transition-all duration-300;
+      @apply h-16 w-24 lg:h-[4.5rem] lg:w-28 transition-all duration-300;
     }
 
     &__mobile {
-      @apply flex lg:hidden p-2 rounded-full relative justify-center items-center bg-[#000103] z-30;
+      @apply flex lg:hidden p-2 rounded-full relative justify-center items-center bg-white z-30;
 
       svg {
-        @apply text-white cursor-pointer font-semibold text-base;
+        @apply text-gray-700 cursor-pointer font-semibold text-base;
       }
 
       div {
-        @apply fixed inset-y-0 right-0 z-[5] p-4 w-full h-screen flex justify-end items-end flex-col bg-[#000103] shadow-lg shadow-black/50;
+        @apply fixed inset-y-0 right-0 z-[5] p-4 w-full h-screen flex justify-end items-end flex-col bg-white shadow-lg shadow-black/50;
 
         svg {
-          @apply text-gray-300 hover:text-white cursor-pointer font-semibold text-base mt-2 mr-2 transition;
+          @apply text-gray-700 hover:text-white cursor-pointer font-semibold text-base mt-2 mr-2 transition;
         }
 
         ul {
@@ -35,7 +35,7 @@
             @apply m-4 text-center;
 
             .nav__link {
-              @apply font-semibold text-base text-gray-300 hover:text-primary hover:scale-105 transition ease-in;
+              @apply font-semibold text-base text-gray-700 hover:text-primary hover:scale-105 transition ease-in;
             }
           }
         }
@@ -43,16 +43,16 @@
     }
 
     &__links {
-      @apply hidden lg:flex items-center gap-12 text-gray-300;
+      @apply hidden lg:flex items-center gap-12 text-gray-700;
     }
 
     &__link:link,
     &__link:visited {
-      @apply text-base font-semibold text-inherit block transition hover:scale-105 hover:text-primary;
+      @apply text-base font-semibold text-inherit block transition hover:scale-105 hover:text-primary-darkMode;
     }
   }
 
   .nav.sticky {
-    @apply fixed bg-[#000103] transition duration-500;
+    @apply fixed bg-white transition duration-500;
   }
 }

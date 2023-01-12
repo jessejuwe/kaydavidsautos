@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="footer__base">
-        <Image src={images.logo} alt="Logo" className="footer__logo" />
+        {/* <Image src={images.logo} alt="Logo" className="footer__logo" /> */}
         <p className="footer__copyright">
           Copyright &copy; 2023 KayDavidsAuto. All rights reserved.
         </p>
