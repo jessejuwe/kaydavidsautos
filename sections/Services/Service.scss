@@ -16,7 +16,7 @@
   }
 
   .home__section {
-    @apply text-gray-200 py-10 px-0 w-full mb-8;
+    @apply text-gray-800 py-10 px-0 w-full mb-8;
 
     .containers {
       .row {
@@ -62,7 +62,7 @@
   }
 
   .darkBg {
-    @apply bg-primary-darkMode rounded-lg;
+    @apply bg-white rounded-lg;
   }
 
   .containers {

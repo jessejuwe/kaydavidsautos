@@ -24,13 +24,13 @@
   }
 
   .section__missions {
-    @apply bg-primary-darkMode p-6 rounded-md flex flex-col items-center justify-start gap-6 mb-10;
+    @apply bg-white p-6 rounded-md flex flex-col items-center justify-start gap-6 mb-10;
 
     .missions {
       @apply flex flex-row items-start justify-start gap-4;
 
       p {
-        @apply tracking-wide text-ellipsis text-left lg:text-justify text-gray-200 font-openSans;
+        @apply tracking-wide text-ellipsis text-left lg:text-justify text-gray-800 font-openSans;
       }
     }
   }
