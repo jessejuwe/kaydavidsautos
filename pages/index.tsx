@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>KayDavids Autos</title>
+        <title>KayDavids Autos & Mech Ltd.</title>
         <meta
           name="description"
           content="Providing luxury cars at an affordable price"

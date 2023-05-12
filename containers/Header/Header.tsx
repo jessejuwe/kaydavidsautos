@@ -21,7 +21,7 @@ const Header: React.FC = () => {
               delayChildren: 0.5,
             }}
           >
-            <h1>KayDavids Autos</h1>
+            <h1>KayDavids Autos & Mech Ltd.</h1>
             <h3>Automobile Import, Trade, Repair & Maintenance</h3>
             <p>
               We exist to provide qualitative automotive services, at reasonable
